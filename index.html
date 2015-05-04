@@ -1,0 +1,256 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile-Webanwendung</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<style>
+#fondo{
+	opacity: 0.8;
+	background-image:url(images/images.png);
+}
+
+#normal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	text-align: justify;
+	color: #000;
+}
+#titulo {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	color: #F00;
+}
+#titulos {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	color: #F00;
+	text-align: center;
+}
+</style>
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="b">
+	<div data-role="header">
+		<h1><font color="#FF0000" size="+3">LA CONTAMINACION</font></h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2"><font color="#00FF33" size="+3">INTRODUCCION</font></a></li>
+            <li><a href="#page3"><font color="#3300FF" size="+3">TIPOS DE CONTAMINACION</font></a></li>
+			<li><a href="#page4"><font color="#FFFF33" size="+3">CAUSAS DE LA CONTAMINACION</font></a></li>
+            <li><a href="#page5"><font color="#CC33CC" size="+3">EFECTOS DE LA CONTAMINACION</font></a></li>
+            <li><a href="#page6"><font color="#00FF33" size="+3">METODOS DE PREVENCION ANTE LA CONTAMINACION</font></a></li>
+            <li><a href="#page7"><font color="#00FFFF" size="+3">CONCLUSION</font></a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Yaneth Velazquez Garcia</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page2" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><div id="titulo">INTRODUCCION</div></h1>
+	</div>
+	<div data-role="content" id="fondo">
+    <div  id="normal">	
+		<p>Se llama contaminación a la transmisión y difusión de humos o gases tóxicos a medios como la atmósfera y el agua, como también a la presencia de polvos y gérmenes microbianos provenientes de los desechos de la actividad del ser humano.<p>
+En la actualidad, el resultado del desarrollo y progreso tecnológico ha originado diversas formas de contaminación, las cuales alteran el equilibrio físico y mental del ser humano. Debido a esto, la actual contaminación se convierte en un problema más crítico que en épocas pasadas. </p>
+		<p><img src="images/hola.jpg" width="310" height="241"></p>
+    </div>
+	</div>
+	<div data-role="footer">
+	  <h4>Yaneth Velazquez Garcia</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><div id="titulo">TIPOS DE CONTAMINACION</div></h1>
+	</div>
+	<div data-role="content" id="fondo" >	
+    <p>
+    <div data-role="content" id="titulos" >	CONTAMINACION DEL AGUA</div>
+    <div  id="normal">
+   Como su nombre lo sugiere, “Contaminación del agua” es el tipo de contaminación que supone la contaminación distintos   cuerpos de agua. Varias criaturas acuáticas dependen de estos cuerpos de agua y sus características naturales       nutritivos para apoyar su vida. 
+  <p><img src="images/agua.jpg" width="255" height="197"></p>
+  <p>
+  <div data-role="content" id="titulos" >	CONTAMINACION DEL AIRE</div>
+  La contaminación del aire altera la composición  química y natural del aire. La respiración es un proceso importante para la  vida de todos los seres vivos. Por lo tanto, si el aire que nos rodea está  contaminado con gases venenosos, tendría un efecto fatal en nosotros.<br>
+  <br>
+El aire de forma natural se compone de 78% de  nitrógeno, 21% de oxígeno, 0,9% de los gases de óxido y 0,1% de gases inertes.  Cuando este equilibrio se altera, provoca trastornos de proporciones graves.       
+       <p><img src="images/aire.jpg" width="350" height="233">    
+       <div data-role="content" id="titulos">CONTAMINACION DEL SUELO</div>
+       <p>Suelo pelado de su fertilidad natural mediante el uso de sustancias químicas artificiales, como los pesticidas, insecticidas, etc maduración agentes que se conoce como “contaminación del suelo”. Las plantas dependen de los compuestos nitrogenados presentes en el suelo para su nutrición. El uso de insecticidas, pesticidas y otras sustancias químicas artificiales absorbe el nitrógeno del suelo por lo que es apto para el crecimiento de las plantas. Las plantas son responsables de mantener el suelo de una manera firme así, cuando las plantas no pueden crecer divide el suelo, lo que conduce a la erosión del suelo. </p>
+       <p><img src="images/ye.png" width="350" height="263"></p>
+       <p>
+      <div data-role="content" id="titulos">CONTAMINACION TERMICA</div>
+  <p>Aumento  de la temperatura en el ecosistema debido a la liberación de energía de calor  excesivo en el medio ambiente por métodos artificiales o desastres naturales  que se llama &ldquo;La contaminación térmica&rdquo;. Generalmente, las industrias  manufactureras liberar una gran cantidad de energía térmica que se transfiere a  los cuerpos de agua y aire. Incluso los vehículos que tienen motores de  combustión liberan una gran cantidad de energía térmica, ya que requieren altas  temperaturas para funcionar. El dióxido de carbono tiene una propiedad de  bloquear el calor salga de la atmósfera y por lo que el calor que viene del sol  es atrapada en la atmósfera.</p>
+  <p><img src="images/TERMICA.png" alt="TERMICA" width="350" height="229"></p>
+  <p>Resultados térmicas de contaminación en un aumento  de la temperatura, que es la principal causa del derretimiento de los casquetes  polares, lo que a su vez conduce a un aumento de los niveles de agua. La  contaminación térmica ha aumentado considerablemente desde el siglo diecinueve  que resulta en una Tierra más caliente.
+  </p>
+  <div data-role="content" id="titulos">CONTAMINACION RADIACTIVA</div>
+  <p>
+  Contaminación radiactiva se produce cuando “RADIACTIVO” desintegrarse liberando metales peligrosos rayos beta que pueden causar cáncer y otras enfermedades mutativas. Este tipo de contaminación puede ocurrir por cualquiera de los vertidos de residuos radiactivos de las centrales nucleares en los cuerpos de agua, daños en los reactores nucleares con miras a la contaminación radiactiva que duraría muchos años y muchos más. En la Segunda Guerra Mundial, cuando EE.UU. atacó a Hiroshima y Nagasaki de Japón, la bomba atómica dejó una huella radiactiva que conduce a enfermedades altamente transformadoras. Por lo tanto, la mayoría de las personas que sobrevivieron al bombardeo atómico finalmente murió de cáncer y mutaciones.
+  </p>
+  <p><img src="images/radio.jpg" width="306" height="165"></p>
+  <div data-role="content" id="titulos">CONTAMINACION ACUSTICA</div>
+  <p>
+  Hay diferentes cualidades de los sonidos. Los sonidos que no son agradables de oír se llaman “ruidos”. Así que un exceso de ruido en el exterior conduce a la “contaminación acústica”. Esto puede ser experimentado por bocinazos demasiados vehículos en las carreteras, maquinaria pesada está operando a la intemperie (por ej, un martillo neumático), los trenes, los clubes, las multitudes más pobladas y muchos más. La contaminación acústica es conocido por causar estrés mental y la depresión. También puede causar daños en el tímpano, que puede causar sordera. La contaminación acústica tiene más de un efecto psicológico en lugar de uno físico.
+  <p><img src="images/mundo.png" width="263" height="191">
+  <p>
+  <div data-role="content" id="titulos">CONTAMINACION LUMINICA</div>
+  <p>
+  La iluminación brillante en funciones, grandes ciudades, etc causa “contaminación lumínica”. El exceso de luz en la retina provoca gran incomodidad en los ojos, especialmente en condiciones de poca luz, como durante la noche. Las luces brillantes tensión de los ojos y también le dan dolores de cabeza y migrañas. Si observamos, la contaminación lumínica, contaminación térmica y la contaminación acústica son todos los tipos de contaminación que son causadas por las diferentes formas de energía.</div>
+  <p><img src="images/LUMINICA.png" alt="LUMINICA" width="350" height="234">
+    	
+	</div>
+	<div data-role="footer">
+		<h4>Yaneth Velazquez Garcia</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page4" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><div id="titulo">CAUSAS DE LA CONTAMINACION</DIV></h1>
+	</div>
+	<div data-role="content" id="fondo">
+    	<div id="normal">
+		<UL type="disc">
+	   <lh>Las principales causas de la contaminación son:</lh>
+     <li>El tráfico rodado: los coches y camiones son los mayores contaminantes urbanos porque a diario circulan arrojando al aire gases tóxicos perjudiciales para la salud. Estos vehículos contaminan a causa de la combustión de los hidrocarburos que utilizan para moverse, y el desgaste de los frenos y  ruedas.
+     <li>En las ciudades existe otra fuente de contaminación como son las construcciones y las demoliciones: estas actividades desprenden polvos y gases que dañan el aire de la zona en que se desarrollan,  y  a su vez contaminan el agua donde arrojan sus desechos.
+     <li>Los Combustibles fósiles: el confort  y el bienestar de los habitantes de las grandes ciudades trajo como consecuencia el aumento en el consumo de combustibles fósiles. La producción de carbón, de petróleo y de gas natural crece de la mano del ascenso de los niveles de contaminación del aire, del suelo y del agua del planeta.
+      <li>El índice de población mundial ha crecido a distinto ritmo que la tasa de mortalidad, hecho que ha impactado sobre el medioambiente: provocando la ineficiencia en el tratamiento de las aguas residuales domésticas, el aumento del consumo irreflexivo  y la generación de toneladas de basura.
+      <li>El progreso tecnológico beneficia a nivel económico y social,  pero la proliferación de industrias y la falta de control ambiental en sus procesos, ha perjudicado el ecosistema por la gran cantidad de residuos arrojados al aire, en ríos y mares.
+     <li> La deforestación: la tala indiscriminada en bosques y selvas impide que los árboles, encargados de purificar el aire, realicen esta tarea y que miles de animales y plantas se extingan por no tener un lugar donde vivir y crecer.
+      <li> Los pesticidas y los productos químicos utilizados en los cultivos llegan a  contaminar el suelo y el agua de la zona en que se sembró. Llegando incluso a contaminar, de forma alarmante, a muchos alimentos.
+      </DIV>      
+      </ul>
+    	<p><img src="images/imagesCA0RCSNJ.jpg" width="310" height="183"><img src="images/hjj.jpg" width="319" height="194"></p>	
+	</div>
+	<div data-role="footer">
+		<h4>Yaneth Velazquez Garcia</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page5" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><div id="titulo">EFECTOS DE LA CONTAMINACION</div></h1>
+	</div>
+	<div data-role="content" id="fondo">
+    <div  id="normal">	
+		<p>La contaminación ha provocado daños en el ecosistema, en la vida del hombre, de los animales y plantas. La acción del hombre, el progreso y la intención de mejorar las condiciones de vida son las causas principales de la contaminación ambiental que está sufriendo el planeta. A su vez, los efectos de esta acción la padece el mismo hombre.
+Los contaminantes pueden producir efectos nocivos e irreversibles para la salud a determinados niveles de concentración. Los efectos dependen de la dosis y de la frecuencia de exposición a ese contaminante.
+<p>
+Efectos de la contaminación en el ser humano:
+<p>
+Según algunos expertos, muchos de los efectos de la contaminación se relacionan, de forma directa, con el nivel social y económico en que se encuentren las comunidades afectadas.
+La pobreza, la falta de acceso a agua potable y de vivienda junto a la combustión de leña y carbón influye de manera significativa sobre la salud de las comunidades más vulnerables que habitan el planeta.
+La parte de la población más afectada por la contaminación ambiental son: los ancianos, los niños, las embarazadas y los enfermos con problemas respiratorios.
+<p><img src="images/imagesCAERGQKK.jpg" width="259" height="194">
+<p>
+Efectos de la contaminación en los animales:
+<p>
+La fauna que vive en la tierra es la que más ha sufrido la contaminación. A causa de acciones contaminantes, intencionadas o no, muchas especies están en peligro de extinción.
+Por ejemplo, la contaminación acústica en el mar y los océanos ha afectado en la salud y en el comportamiento de numerosas especies submarinas, como delfines, ballenas, algunos invertebrados y otros animales marinos.
+La contaminación química también daña a los habitantes del mar. Muchos investigadores encontraron restos de metales y de sustancias muy contaminantes como el mercurio, el cadmio, el cobre y el plomo en especies acuáticas.
+La contaminación lumínica cambia el comportamiento de muchos animales. Algunos expertos y  ecólogos observaron que los murciélagos han logrado adaptarse a la vida en la ciudad porque, su alimento principal, las polillas se han trasladado, atraídas por la luz de las farolas.  Por el contrario, otros animales, necesitados de oscuridad, al intentar alejarse de la luz terminaron en el mar, donde es difícil conseguir alimentos.
+<p><img src="images/hj.jpg" width="271" height="274"> <img src="images/imagesCANBYHOK.jpg" width="364" height="194">
+<p>
+  Efectos de la contaminación en las plantas:
+<p>
+La polución afecta  al crecimiento de las plantas y provoca la desaparición de muchas especies. La escasez de lluvias y la contaminación de agua, aire y suelo han traído como consecuencia la desertificación. Esta situación perjudica de manera seria a agricultores porque sus plantas y sus cosechas no podrán crecer no recolectarse.
+		
+<p><img src="images/u.jpg" width="224" height="225">
+    </div>
+	</div>
+	<div data-role="footer">
+	  <h4>Yaneth Velazquez Garcia</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page6" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><div id="titulo">METODOS DE PREVENCION ANTE LA CONTAMINACION</div></h1>
+	</div>
+	<div data-role="content" id="fondo">
+    <div  id="normal">	
+		     <p>Es muy importante que la gente mexicana haga conciencia de la contaminación que produce. Y que no solo afecta nuestra ciudad, ni a nuestro país sino a nuestro mundo. Las autoridades deben hacerse cargo y mantenerse al tanto de la gravedad de la situación. Pero sobre todo fomentar en nuestros niños el amor por la naturaleza, la sana convivencia con ella y la protección.
+ <p>   
+Tal vez no sea fácil reducir ahora, las emisiones de dióxido de carbono, la tala de árboles, la contaminación del agua, etc., pero si es más fácil que los niños se acostumbren a no usar el carro si no se necesita, a cuidar el agua, a reciclar. Y a lo mejor en un mañana, no muy lejano, se respire un aire limpio, en nuestro país.<p>
+A mí, sobre todo, el ver cómo las autoridades no se han preocupado como debieran por estos temas ecológicos, me entristece. Pero si el gobierno no pone medidas, nosotros los ciudadanos debemos comenzar a ponerlas, porque al fin y al cabo todos somos habitantes de este gran planeta azul, que llamamos hogar. Hogar, que si no hacemos algo, terminaremos por destruirlo. Porque<font color="#0000FF"> "Cuando el último árbol haya sido abatido, cuando el último río haya sido envenenado, cuando el último pez haya sido pescado, sólo entonces nos daremos cuenta de que no se puede comer el dinero." Jefe Seattle, 1856.</font> 
+      <ul type="disc"> 
+       <lh>Algunos metodos que podemos emplear para el cuidado de nuestro planeta:</lh>  
+<li> Eliminar la descarga de contaminantes tóxicos a las aguas costeras.
+<li> Utilizar sistemas separados de eliminación y conducción de aguas pluviales y aguas negras.
+<li> Usar y desperdiciar menos agua potable.
+<li> Prohibir que se tiren al mar los sedimentos de las aguas negras y los materiales peligrosos de dragados.
+<li> Proteger las áreas de costa que ya están limpias.
+<li> Reducir la dependencia sobre el petróleo.
+<li> Usar los métodos indicados para evitar la contaminación por petróleo.
+<li> Prohibir el arrojar artículos de plástico y basura desde las embarcaciones de transporte marítimo.
+<li> Afinar y dar mantenimiento a los automóviles
+<li> Evitar la quema de basura y llantas, así como el uso de cohetes artificiales
+<li> Evitar comprar artículos desechables y plásticos que no son biodegradables.
+<li> Reciclar la basura
+<li> No arrojar basura en la calle, bosques y parques, envolverla o taparla bien en la casa
+<li> Usar racionalmente los plaguicidas
+<li> Evitar el consumo de tabaco
+<li> Cuidar los bosques, no provocar incendios ni destruir las zonas verdes de la ciudad
+<li> Posponer las tareas de jardinería que requieran el uso de herramientas a gasolina en días de alto nivel de de ozono.
+<li> Consume alimentos orgánicos o al menos aquellos no hayan sido sometidos a un uso tan intensivo de agroquímicos. (puedes cultivarlos en tú azotea con composta hecha por ti mismo)
+<li> Restringir la limpieza en seco.
+<li> Evita el uso de pinturas, aceites y solventes en días de alta concentración de ozono.
+<li> Reduce el consumo de electricidad, lo cual contribuirá a disminuir las emanaciones de contaminantes y partículas.
+<li> Prende el carbón de leña con un encendedor eléctrico en vez de hacerlo con combustible líquido.
+</ul>
+      <p><img src="images/yo.png" width="199" height="253"><img src="images/ñl.jpg" width="290" height="166"><img src="images/uoooooooo.jpg" width="288" height="252"></p> 	
+         </div>
+	</div>
+	<div data-role="footer">
+	  <h4>Yaneth Velazquez Garcia</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page7" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><div id="titulo">CONCLUSION</div></h1>
+	</div>
+	<div data-role="content" id="fondo">
+    <div  id="normal">	
+		<P>La población humana crece según una progresión geométrica, por lo tanto cada vez es mayor la demanda de alimentos y también las necesidades básicas para la vida del hombre. Esto implica un aumento de materias primas y de energías, de productos finales y de desechos, entre los que hay a menudo muchas sustancias tóxicas. Este desarrollo ha provocado grandes alteraciones en la Tierra: regiones enteras en las zonas de los trópicos se han convertido en desiertos, han desaparecido especies de animales y vegetales para siempre, y otras están en peligro de extinción.
+El hombre utiliza las materias primas naturales como si fueran inagotables; los productos finales y los materiales de desecho son volcados a la tierra, a las aguas y reciente-mente también en el océano abierto, como si ellos pudieran asimilarlos sin sufrir ningún tipo de cambio.<P>
+Otro problema grave son las grandes ciudades, los países en vías de desarrollo y los ya desarrollados, quienes enfocan los problemas de distintos puntos de vista de acuerdo a su conveniencia, y las redes de cambios que hacen desaparecer paisajes naturales y culturales.<P>
+Todos estos cambios también afectan la psiquis del hombre que necesita de los espacios verdes para relajarse.
+La óptima calidad de vida exige que el equilibrio de la naturaleza no sea modificado. El hombre debe aprender que el ambiente no es algo que pueda manejar según su voluntad, sino que él debe integrarse para tener una vida mejor.<P>
+Un paso importante para mejorar el hábitat sería lograr que el hombre cambio de actitud interna hacia su ambiente respetando sus valores y derechos.
+<P><img src="images/hjj.jpg" width="259" height="194"> 
+</div>
+	</div>
+	<div data-role="footer">
+	  <h4>Yaneth Velazquez Garcia</h4>
+	</div>
+</div>
+
+
+</body>
+</html>
